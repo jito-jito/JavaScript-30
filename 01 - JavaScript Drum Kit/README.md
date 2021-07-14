@@ -1,9 +1,9 @@
-#01 - JavaScript Drum kit
+# 01 - JavaScript Drum kit
 
 The challenge is be touching a sound when you press one of the keys
 indicated in the photo. 
 
-foto//
+![Captura de pantalla 2021-07-14 112505](https://user-images.githubusercontent.com/75919670/125648544-5080c255-346b-48f0-92f5-8fd8d6cd8b83.png)
 
 Each key is associated with a sound using the  attribute "Data-Key" general in the HTML elements.
 
@@ -60,7 +60,7 @@ The Removeanimation function will remove the animation when the effect it finish
 
 
 
-##### execute sound
+##### Execute sound
 
 The PlaySound function looks for the Keycode that matches one of the audios brought from the Dom with a **forEach** and executes the corresponding sound
 
@@ -69,7 +69,7 @@ The PlaySound function looks for the Keycode that matches one of the audios brou
 		  let $keyCode = $audio.dataset.key
 
 		  if(keyCode == $keyCode) {
-		  //for restart the audio and can play it in multiple occasions without waiting for him 			to finish ringing
+		  	//for restart the audio and can play it in multiple occasions without waiting for him to finish ringing
 			$audio.currentTime = 0
 			// for play the audio
 			$audio.play()

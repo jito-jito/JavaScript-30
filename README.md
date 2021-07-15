@@ -7,3 +7,4 @@ Whitout any frameworks, no compilers, no libraries and no boilerplate.
 ### Challenges:
 
 1. JavaScript Drum Kit
+2. JS and CSS Clocks

@@ -2,7 +2,7 @@
 
 The challenge is do it work a clock made with html y css.
 
-//foto
+![clock](https://user-images.githubusercontent.com/75919670/125829491-d9337298-4a9c-405d-9e39-9e86e831957b.png)
 
 Steps to comply with the challenge:
 

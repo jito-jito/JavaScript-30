@@ -1,8 +1,8 @@
 # 03 - CSS Variables
 
-the challenge was to change varibales CSS with JavaScript
+The challenge was to change varibales CSS with JavaScript for changing properties in the picture:
 
-//foto
+![cssvariables](https://user-images.githubusercontent.com/75919670/126002249-5908f28c-af27-4165-a7a0-fd60b128ff15.png)
 
 Steps for complete the challenge:
 
@@ -20,7 +20,7 @@ In the CSS, I created the variables in the **root** element to apply them throug
 
 #### 2.- Get DOM elements
 
-In JavaScript, using **query selector** for get the DOM elements in a variable.
+In JavaScript, i use **query selector** for get the DOM elements and css variables in a variable JavaScript.
 
 
     $root = document.querySelector(':root');
@@ -41,4 +41,4 @@ For finished i create an **eventlistener** for execute the 'setControl' function
         }
     }
 
-**element.style.setProperty** is the magic method for set the input   values recived in the event a the css varibles.
+**element.style.setProperty** is the magic method for set the input values recived in the event a the css varibles.

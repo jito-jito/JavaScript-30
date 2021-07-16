@@ -8,3 +8,4 @@ Whitout any frameworks, no compilers, no libraries and no boilerplate.
 
 1. JavaScript Drum Kit
 2. JS and CSS Clock
+3. CSS Variables

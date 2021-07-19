@@ -2,7 +2,7 @@
 
 The challenge was create a Flex panel gallery:
 
-//foto
+![flexchallenge](https://user-images.githubusercontent.com/75919670/126188949-0b8759a8-9f21-4457-9f10-03cf391e4478.png)
 
 Steps for complete the challenge:
 

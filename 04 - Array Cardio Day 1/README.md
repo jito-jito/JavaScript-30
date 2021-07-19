@@ -2,7 +2,8 @@
 
 The challenge was to resolve mini tasks described in the html file.
 
-//foto
+![cardioArray1](https://user-images.githubusercontent.com/75919670/126086141-b52f84e5-db18-4d2e-a592-77f90affc808.png)
+
 
 Steps for complete the challenge:
 
@@ -84,7 +85,8 @@ For make this i used the **reduce** method:
 
 Copy/paste the code in the link for see the results:
 
-photo
+
+![cardioArray1-2](https://user-images.githubusercontent.com/75919670/126086184-497a90d0-4573-4a18-9cfc-9cf620a1fc01.png)
 
 
 #### 7.- Sort Exercise, Sort the people alphabetically by last name

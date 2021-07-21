@@ -3,7 +3,7 @@
 The challenge was to get a JSON file with data from cities and states to create a filter using a input element.
 
 
-//foto
+![findtype](https://user-images.githubusercontent.com/75919670/126518374-1fff9ebd-d0a8-4614-9dde-f0af06a0c081.png)
 
 
 Steps for complete thge challenge:

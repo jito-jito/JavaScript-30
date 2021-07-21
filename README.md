@@ -11,3 +11,4 @@ Whitout any frameworks, no compilers, no libraries and no boilerplate.
 3. CSS Variables
 4. Array Cardio Day 1
 5. Flex Panel Gallery
+6. Type Ahead

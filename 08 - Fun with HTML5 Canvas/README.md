@@ -2,8 +2,7 @@
 
 This challenge was use 'canvas' for draw with the mouse:
 
-//foto
-
+![canvas](https://user-images.githubusercontent.com/75919670/126929101-fd8103e9-3d80-47e6-bd2a-41ab11e73fe5.png)
 
 Steps for complete the challenge:
 

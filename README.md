@@ -13,3 +13,5 @@ Whitout any frameworks, no compilers, no libraries and no boilerplate.
 5. Flex Panel Gallery
 6. Type Ahead
 7. Array Cardio Day 2
+8. Fun Width HTML5 Canvas
+9. Dev Tools Domination

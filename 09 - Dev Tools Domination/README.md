@@ -3,7 +3,8 @@
 In this challenge i learned about diferents forms of use the 'console' method.
 
 
-//foto
+![console](https://user-images.githubusercontent.com/75919670/126929540-c04f6d32-2769-4b76-8220-c84f137d8241.png)
+
 
 
 'console.log()' is a method for show values in console, diferent forms of use:

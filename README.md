@@ -14,7 +14,5 @@ Whitout any frameworks, no compilers, no libraries and no boilerplate.
 6. Type Ahead
 7. Array Cardio Day 2
 8. Fun Width HTML5 Canvas
-<<<<<<< HEAD
 9. Dev Tools Domination
-=======
->>>>>>> 251226cea5a519f05e9f798c36e9378a8c764341
+10. Hold Shift and Check Checkboxes 

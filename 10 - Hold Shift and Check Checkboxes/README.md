@@ -3,7 +3,7 @@
 Create code for select all boxes between two checks, only if press 'shift' key in the last check
 
 
-//foto
+![checks](https://user-images.githubusercontent.com/75919670/127680808-f5c8368c-3864-4353-96f7-4071c0279ed5.png)
 
 
 

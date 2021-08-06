@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-30 Jito-jito</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+        body {
+            background-color: #7236F1;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+            padding: 0 5%;
+        }
+
+        .header {
+            height: 10vh;
+        }
+        .header-title {
+            margin-bottom: 40px;
+            text-align: center;
+            color: white;
+        }
+
+
+        .main {
+            display: grid;
+            /* grid-auto-columns: 1fr 1fr 1fr 1fr; */
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 30px;
+            min-height: 80vh;
+        }
+
+        .card-item {
+            place-self: center center;
+            position: relative;
+            width: 190px;
+            height: 190px;
+            color: white;
+            font-size: 12px;
+        }
+        .card-item > a {
+            color: aliceblue;
+        }
+        .card-item > a > .card-date {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            width: 65px;
+            height: 20px;
+            z-index: 10;
+            margin: 0;
+            background-color: #5A8DD9;
+            font-weight: 500;
+
+        }
+
+        .card-item > a > figure, img {
+            position: absolute; 
+            width: 190px;
+            height: 190px;
+            z-index: 0;
+            margin: 0;
+        }
+
+        .card-item > a > .card-title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            z-index: 10;
+            margin: 0;
+            width: 100%;
+            height: 40px;
+            background-color: #5A8DD9;
+        }
+
+        .card-title h2 {
+            text-align: center;
+        }
+
+
+        .footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 10vh;
+        }
+        .footer hr {
+            width: 70vw;
+        }
+        .footer-title, .footer-title > a {
+            font-size: 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+
+        @media screen and (max-width: 1160px) {
+            .main {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media screen and (max-width: 930px) {
+            .main {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media screen and (max-width: 790px) {
+            .main {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media screen and (max-width: 460px) {
+            .main {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+            
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">
+            30 Days in JavaScript with Wes bos challenge
+        </h1>
+    </header>
+    <main class="main">
+        <section class="card-item">
+            <a href="./01 - JavaScript Drum Kit/index.html">
+                <div class="card-date">
+                    <p>Day 1</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./01 - JavaScript Drum Kit/background.jpg" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>JavaScript Drum Kit</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./02 - JS and CSS Clock/index.html">
+                <div class="card-date">
+                    <p>Day 2</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./02 - JS and CSS Clock/clock.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>JS and CSS Clock</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./03 - CSS Variables/index.html">
+                <div class="card-date">
+                    <p>Day 3</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./03 - CSS Variables/VariablesCSS.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>CSS Variables</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./04 - Array Cardio Day 1/index.html">
+                <div class="card-date">
+                    <p>Day 4</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./04 - Array Cardio Day 1/Arraycardio1.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>Array Cardio Day 1</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./05 - Flex Panel Gallery/index.html">
+                <div class="card-date">
+                    <p>Day 5</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./05 - Flex Panel Gallery/flexPanel.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>Flex Panel Gallery</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./06 - Type Ahead/index.html">
+                <div class="card-date">
+                    <p>Day 6</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./06 - Type Ahead/typeAhead.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>Type Ahead</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./07 - Array Cardio Day 2/">
+                <div class="card-date">
+                    <p>Day 7</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./07 - Array Cardio Day 2/ArrayCardio2.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>Array Cardio Day 2</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./08 - Fun with HTML5 Canvas/index.html">
+                <div class="card-date">
+                    <p>Day 8</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./08 - Fun with HTML5 Canvas/FunWithCanvas.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>Fun with HTML5 Canvas</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./09 - Dev Tools Domination/index.html">
+                <div class="card-date">
+                    <p>Day 9</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./09 - Dev Tools Domination/DevToolsDominationpng.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>Dev Tools Domination</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./10 - Hold Shift and Check Checkboxes/index.html">
+                <div class="card-date">
+                    <p>Day 10</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./10 - Hold Shift and Check Checkboxes/ChackBoxes.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>Hold Shift and Check Checkboxes</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./11 - Custom Video Player/index.html">
+                <div class="card-date">
+                    <p>Day 11</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./11 - Custom Video Player/videoPlayer.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>Custom Video Player</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./12 - Key Sequence Detection/index.html">
+                <div class="card-date">
+                    <p>Day 12</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./12 - Key Sequence Detection/keyDetection.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>Key Sequence Detection</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./13 - Slide in on Scroll/index.html">
+                <div class="card-date">
+                    <p>Day 13</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./13 - Slide in on Scroll/imageScroll.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>Slide in on Scroll</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./14 - JavaScript References VS Copying/index.html">
+                <div class="card-date">
+                    <p>Day 14</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./14 - JavaScript References VS Copying/reforcopy.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>JavaScript References VS Copying</h2>
+                </div>
+            </a>
+        </section>
+        <section class="card-item">
+            <a href="./15 - LocalStorage/">
+                <div class="card-date">
+                    <p>Day 15</p>
+                </div>
+                <figure class="card-img">
+                    <img src="./15 - LocalStorage/localstorage.png" alt="">
+                </figure>
+                <div class="card-title">
+                    <h2>LocalStorage</h2>
+                </div>
+            </a>
+        </section>
+               
+    </main>
+    <footer class="footer">
+        <hr>
+        <h1 class="footer-title">Developed with<a href="https://github.com/jito-jito"> jito-jito</a> 😃</h1>
+    </footer>
+</body>
+</html>

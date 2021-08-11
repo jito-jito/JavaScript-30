@@ -29,3 +29,5 @@ https://jito-jito.github.io/JavaScript-30/
 15. LocalStorage
 16. Mouse Move Shadow
 17. Sort Without Articles
+18. Adding Up Times with Reduce
+19. Webcam Fun

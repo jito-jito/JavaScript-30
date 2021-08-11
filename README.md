@@ -16,11 +16,10 @@ Whitout any frameworks, no compilers, no libraries and no boilerplate.
 8. Fun Width HTML5 Canvas
 9. Dev Tools Domination
 10. Hold Shift and Check Checkboxes 
-<<<<<<< HEAD
 11. Custom Video Player
 12. Key Sequence Detection
 13. Slide in on Scroll
 14. JavaScript References VS Copying
 15. LocalStorage
-=======
->>>>>>> ce3803d2b733f114156d361fe02e870883aef3cc
+16. Mouse Move Shadow
+17. Sort Without Articles

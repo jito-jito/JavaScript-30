@@ -4,6 +4,12 @@ this is a JavaScript Practice with [JavaScript30](https://javascript30.com/) by 
 
 Whitout any frameworks, no compilers, no libraries and no boilerplate.
 
+Check the results in this link
+
+https://jito-jito.github.io/JavaScript-30/
+
+
+
 ### Challenges:
 
 1. JavaScript Drum Kit

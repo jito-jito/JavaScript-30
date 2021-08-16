@@ -31,3 +31,6 @@ https://jito-jito.github.io/JavaScript-30/
 17. Sort Without Articles
 18. Adding Up Times with Reduce
 19. Webcam Fun
+20. Speech Detection
+21. Geolocation
+22. Follow Along Link Highlighter

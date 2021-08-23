@@ -38,3 +38,7 @@ https://jito-jito.github.io/JavaScript-30/
 24. Sticky Nav
 25. Event Capture, Propagation, Bubbling and Once
 26. Stripe Follow Along Nav
+27. Click and Drag
+28. Video Speed Controller
+29. Countdown Timer
+30. Whack A Mole
